@@ -242,8 +242,13 @@ color:#F50;
 
 .arch_button{
 background-color:#1F1F1B;
-color:#F50;
-border-color:#D2D2BA;
+color:#D2D2BA;
+border-style:none;
+}
+
+.arch_button:hover{
+background-color:#1F1F1B;
+color:#F50
 }
 
 .arch_cat a,#footer a{
