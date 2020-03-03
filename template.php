@@ -3,5 +3,5 @@
 
 ?>
 
-<?php include("includes/display_posts.php") ?>
+
 <?php include("includes/footer.php") ?>	

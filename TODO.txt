@@ -1,5 +1,3 @@
-Split the index.php into includable parts
-
 Create the about us page
 
 Create the donation page
