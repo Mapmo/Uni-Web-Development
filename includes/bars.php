@@ -15,7 +15,7 @@
                                         <fieldset>
                                                 <input type="text" name="string" size="10" class="textfield" />
                                                 <br />
-                                                <input type="submit" name="Submit" value="FIND"  class="submit"/>
+                                                <input type="submit" name="Submit" value="FIND" class="submit"/>
                                         </fieldset>
                                 </form>
                                 <h3>about</h3>
