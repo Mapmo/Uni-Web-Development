@@ -1,11 +1,7 @@
-Create posts DB
-
-Create a page for matching searches that displays brief posts (used by category, archives, search - search.php)
-
-Create a page for full posts
-
-Make the search form active
-
 Make the post a review form active
 
-Make the read more from the brief posts to lead to the full posts
+Make the archives work
+
+Make the match category work
+
+Make category under posts work
