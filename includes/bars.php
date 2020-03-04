@@ -28,18 +28,13 @@
                                 </ul>
 
                                 <h3>categories</h3>
-                                <ul class="arch_cat">
-                                        <li><a href="#">Uncatagorized</a> (24)</li>
-                                        <li><a href="#">Templates</a> (10)</li>
-                                        <li><a href="#">Design</a> (15)</li>
-                                        <li><a href="#">Technology</a> (17)</li>
-                                        <span id="dots">...</span>
-                                        <span id="more">
-                                                <li><a href="#">Personal</a> (4)</li>
-                                                <li><a href="#">Tutorials</a> (8)</li>
-                                        </span>
-                                        <li><button onclick="ShrinkText()" id="myBtn" class="arch_button">Read more</button></li>
-                                </ul>
+				<ul class="arch_cat">
+				
+				<?php
+					include("print_categories.php");
+				?>
+
+                               	</ul>
                         </div>
 
  <div id="content">
