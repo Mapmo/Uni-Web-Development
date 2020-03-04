@@ -1,4 +1,5 @@
 <body>
+<?php $db_connection = OpenCon(); ?>
                 <div id="container">
                         <div id="banner">
                                 <ul id="menubar">
@@ -10,7 +11,7 @@
                         </div>
                         <div id="sidebar">
                                 <h3 class="ie6">search</h3>
-                                <form action="#" method="post">
+                                <form action="search.php" method="get">
                                         <fieldset>
                                                 <input type="text" name="string" size="10" class="textfield" />
                                                 <br />

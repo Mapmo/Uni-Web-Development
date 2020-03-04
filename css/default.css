@@ -1,8 +1,12 @@
 /* CSS Document */
 
 /* LAYOUT */
-
+html{
+ position: relative;
+  min-height: 100%;
+}
 body{
+	  margin-bottom: 60px;
 background:url(../img/bg.gif) top left repeat #000;
 font:.8em Arial, Helvetica, sans-serif;
 letter-spacing:.07em;

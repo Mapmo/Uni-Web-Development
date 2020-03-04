@@ -1,12 +1,6 @@
-Create the about us page
-
-Create the donation page
-
-Create the post a review form
-
 Create posts DB
 
-Create a page for matching searches that displays brief posts (used by category, archives, search)
+Create a page for matching searches that displays brief posts (used by category, archives, search - search.php)
 
 Create a page for full posts
 
