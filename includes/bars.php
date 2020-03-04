@@ -22,9 +22,10 @@
                                 <p>The meaning behind The Raven is that you should let go: you cannot hold onto everything you love forever, and it will only bring you pain and suffering.</p>
                                 <h3>archives</h3>
                                 <ul class="arch_cat">
-                                        <li><a href="#">Last week</a></li>
-                                        <li><a href="#">Last month</a></li>
-                                        <li><a href="#">All materials</a></li>
+                                        <li><a href="../index.php?date=week">Last week</a></li>
+					<li><a href="../index.php?date=month">Last month</a></li>
+					<li><a href="../index.php?date=year">Last year</a></li>
+                                        <li><a href="../index.php?date=all">All materials</a></li>
                                 </ul>
 
                                 <h3>categories</h3>

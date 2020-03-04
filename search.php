@@ -3,11 +3,11 @@
 
 	if(isset($_GET['string']))
 	{		
-	        $query="SELECT * FROM posts WHERE content LIKE '%".$_GET['string']."%'";
+	        $query="SELECT * FROM posts WHERE content LIKE '%".$_GET['string']."%' ORDER BY post_id DESC";
 	}
 	elseif(isset($_GET['cat']))
 	{
-		$query="SELECT * FROM posts WHERE category='".$_GET['cat']."'";
+		$query="SELECT * FROM posts WHERE category='".$_GET['cat']."' ORDER BY post_id DESC";
 	}
 	else
 	{

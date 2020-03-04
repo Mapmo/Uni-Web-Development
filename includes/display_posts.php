@@ -9,9 +9,34 @@
                         </address>
                                         
 				
-			<?php
-				$query="SELECT * FROM posts";
+<?php
+				if(isset($_GET['date']))
+				{
+					if($_GET['date'] === "all")
+					{
+						$query="SELECT * FROM posts ORDER BY post_id DESC";
+					}
+					elseif($_GET['date'] === "week")
+					{
+						$query="SELECT * FROM posts WHERE date > DATE_SUB(NOW(), INTERVAL 1 WEEK) ORDER BY post_id DESC";
+					}
+					elseif($_GET['date'] === "month")
+                                        {
+                                                $query="SELECT * FROM posts WHERE date > DATE_SUB(NOW(), INTERVAL 1 MONTH) ORDER BY post_id DESC";
+					}
+					elseif($_GET['date'] === "year")
+                                        {
+                                                $query="SELECT * FROM posts WHERE date > DATE_SUB(NOW(), INTERVAL 1 YEAR) ORDER BY post_id DESC";
+					}
+					else
+					{
+						die("incorrect use of ?date for search");
+					}
+				}
+				else
+				{
+					$query="SELECT * FROM posts ORDER BY post_id DESC LIMIT 10";
+				}
 				$select_posts=mysqli_query($db_connection, $query);
-
 				include("print_shortened_posts.php");	
 			?>
