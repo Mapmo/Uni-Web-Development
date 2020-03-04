@@ -1,7 +1,3 @@
 Make the post a review form active
 
 Make the archives work
-
-Make the match category work
-
-Make category under posts work
