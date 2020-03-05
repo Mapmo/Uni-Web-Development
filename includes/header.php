@@ -6,6 +6,6 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
                 <link type="text/css" rel="stylesheet" href="css/default.css" />
                 <script src="js/default.js"></script>
-
+		<link rel="icon" href="../img/logo.png">
 		<?php include("db_connection.php"); ?>
 	</head>
