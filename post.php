@@ -7,7 +7,7 @@
 <form class="arch_form" action="includes/post_review.php" target="_self" method="post" color="red">
 	<label for="fname" color="red">Name/Nickname:</label><br>
   	<input type="text" id="fname" name="fname" placeholder="John" required><br>
-  	<label for="femail">Last name:</label><br>
+  	<label for="femail">Email:</label><br>
  	<input type="email" id="femail" name="femail" placeholder="your@email.com" required><br>
 	<label for="fcat">Category</label><br>
   	<select id="fcat" name="fcat" required>
