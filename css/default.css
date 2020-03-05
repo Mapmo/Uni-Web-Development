@@ -243,6 +243,16 @@ line-height:1.6em;
 color:#F50;
 }
 
+.arch_form{
+background-color:#1F1F1B;
+padding:8px 0 8px 16px;
+margin-top:0;
+width:530px;
+list-style:none;
+line-height:1.6em;
+color:#F50;
+}
+
 .arch_button{
 background-color:#1F1F1B;
 color:#D2D2BA;

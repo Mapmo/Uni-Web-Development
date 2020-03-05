@@ -1,1 +1,1 @@
-Make the post a review form active
+Refactor code to make it easier for reading

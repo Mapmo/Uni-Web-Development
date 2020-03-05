@@ -32,7 +32,7 @@
 				<ul class="arch_cat">
 				
 				<?php
-					include("print_categories.php");
+					include("print_categories_bar.php");
 				?>
 
                                	</ul>
