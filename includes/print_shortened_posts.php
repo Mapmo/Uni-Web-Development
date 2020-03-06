@@ -5,8 +5,8 @@ if(mysqli_num_rows($select_posts) > 0)
        	{
        		echo '<div class="blogitem">';        
                 echo "<h2>".$row['title']."</h2>";
-                echo "<p class='authdate'>By ".$row['user']."<span class='slash'>//</span>email: ".$row['email']."<span class='slash'>//</span>".$row['date']."</p>";
-                echo "<p>".$row['summary']."</p>";
+		echo "<p class='authdate'>Author: ".$row['user']." (".$row['email'].")<span class='slash'> || </span>".$row['date']."</p>";
+		echo "<p>".$row['summary']."</p>";
                 echo '<a href="../full_post.php?post_id='.$row['post_id'].'">read more</a>';
                 echo '<p class="blogbottom">Category: <span class="tags"> <a href="search.php?cat='.$row['category'].'">'.$row['category'].'</a> <span class="slash">//</span> <a href="#">report</a></p>';
                 echo "</div>";
