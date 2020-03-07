@@ -74,7 +74,7 @@ display:block;
 
 #menubar a:hover{
 background:url(../img/zig.gif) bottom left repeat-x #292722;
-color:#D2D2BA;
+color:#F50;
 }
 
 #menubar li{
@@ -101,12 +101,12 @@ a{
 text-decoration:none;
 padding:0 2px;
 font-weight:900;
-color:#F50;
+color:#D2D2BA;
 }
 
 a:hover{
-background-color:#F50;
-color:#292722;
+background-color:#292722;
+color:#F50;
 }
 
 img.float_left{
