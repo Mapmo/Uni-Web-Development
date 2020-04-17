@@ -7,8 +7,7 @@
                                 And my soul from out that shadow that lies floating on the floor<br>
                                 Shall be lifted-nevermore!
                         </address>
-                                        
-				
+         
 <?php
 				if(isset($_GET['date']))
 				{
@@ -39,4 +38,4 @@
 				}
 				$select_posts=mysqli_query($db_connection, $query);
 				include("print_shortened_posts.php");	
-			?>
+?>				

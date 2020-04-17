@@ -1,5 +1,5 @@
 <body>
-<?php $db_connection = OpenCon(); ?>
+<?php $db_connection = OpenCon();?>
                 <div id="container">
                         <div id="banner">
                                 <ul id="menubar">
